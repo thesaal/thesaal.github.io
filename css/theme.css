@@ -177,7 +177,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
   line-height: 24px;
-  font-family: "Inconsolata", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
 body.boxed-layout {
@@ -411,7 +411,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
@@ -522,7 +522,7 @@ h6.uppercase,
   margin-right: -3px;
 }
 .bold-h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
@@ -541,7 +541,7 @@ p.lead {
 }
 .alt-font {
   text-transform: uppercase;
-  font-family: 'Pathway Gothic One', 'Georgia', 'Helvetica', sans-serif;
+  font-family: 'Open Sans Light', 'Georgia', 'Helvetica', sans-serif;
   font-size: 24px;
   line-height: 32px;
   color: #222;
@@ -593,7 +593,7 @@ a:hover {
   text-decoration: none;
 }
 .label {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
@@ -3501,4 +3501,14 @@ footer.bg-dark a {
   .pb-xs-120 {
     padding-bottom: 120px;
   }
+}
+
+@font-face {
+ font-family: 'Open Sans';
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'Open Sans Light';
+  src: url(../fonts/Open_Sans/OpenSans-Light.ttf) format('truetype');
 }
