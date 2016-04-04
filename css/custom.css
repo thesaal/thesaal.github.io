@@ -1,1 +1,33 @@
 /*!---------- Custom Styles Here ----------*/
+
+.ribbon-image {
+  background: #AA1A23;
+  opacity: 0.7;
+  display: inline-block;
+  padding: 0 12px 0 24px;
+  text-align: center;
+  position: relative;
+  height: 24px;
+}
+.ribbon-image h1,
+.ribbon-image h2,
+.ribbon-image h3,
+.ribbon-image h4,
+.ribbon-image h5,
+.ribbon-image h6 {
+  color: #ffffff;
+}
+.ribbon-image:after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 0;
+  border: 12px solid #AA1A23;
+  z-index: -1;
+  right: -24px;
+  border-left-width: 24px;
+  border-right-color: transparent;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px;
+}
